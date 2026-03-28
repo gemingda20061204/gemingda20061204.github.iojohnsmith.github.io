@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Animation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            background: #e0f7fa; /* 背景色，可替换为你的背景图 */
+            position: relative;
+        }
+        .car {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100px; /* 初始大小 */
+            height: auto;
+            animation: drive 8s linear forwards;
+        }
+        @keyframes drive {
+            0% {
+                transform: translate(0, 0) scale(0.5);
+            }
+            100% {
+                transform: translate(calc(100vw - 200px), calc(100vh - 100px)) scale(2); /* 终点位置和最终大小 */
+            }
+        }
+    </style>
+</head>
+<body>
+    < img class="car" src="https://picsum.photos/id/1071/400/200" alt="Car">
+</body>
+</html>
