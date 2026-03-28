@@ -14,14 +14,14 @@
             width: 100vw;
             height: 100vh;
             overflow: hidden;
-            background: #e0f7fa; /* 背景色，可替换为你的背景图 */
+            background: #e0f7fa;
             position: relative;
         }
         .car {
             position: absolute;
             top: 0;
             left: 0;
-            width: 100px; /* 初始大小 */
+            width: 100px;
             height: auto;
             animation: drive 8s linear forwards;
         }
@@ -30,7 +30,7 @@
                 transform: translate(0, 0) scale(0.5);
             }
             100% {
-                transform: translate(calc(100vw - 200px), calc(100vh - 100px)) scale(2); /* 终点位置和最终大小 */
+                transform: translate(calc(100vw - 200px), calc(100vh - 100px)) scale(2);
             }
         }
     </style>
