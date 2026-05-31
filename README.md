@@ -1,2 +1,12 @@
-# gemingda20061204.github.iojohnsmith.github.io
-My first GitHub Pages website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First GitHub Page</title>
+</head>
+<body>
+    <h1>Hello from NetBeans & GitHub!</h1>
+    <p>This is my first HTML5 page hosted on GitHub Pages.</p>
+</body>
+</html>
